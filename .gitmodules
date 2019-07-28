@@ -4,3 +4,6 @@
 [submodule "CxImageNG/submodules/zlib"]
 	path = CxImageNG/submodules/zlib
 	url = https://github.com/MarekKnapek/zlib.git
+[submodule "CxImageNG/submodules/libpng"]
+	path = CxImageNG/submodules/libpng
+	url = https://github.com/MarekKnapek/libpng.git
