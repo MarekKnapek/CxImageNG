@@ -7,3 +7,6 @@
 [submodule "CxImageNG/submodules/libpng"]
 	path = CxImageNG/submodules/libpng
 	url = https://github.com/MarekKnapek/libpng.git
+[submodule "CxImageNG/submodules/IJG-JPEG"]
+	path = CxImageNG/submodules/IJG-JPEG
+	url = https://github.com/MarekKnapek/IJG-JPEG.git
