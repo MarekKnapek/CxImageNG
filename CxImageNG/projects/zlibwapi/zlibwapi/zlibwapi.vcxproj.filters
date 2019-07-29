@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\submodules\zlib\adler32.c" />
+    <ClCompile Include="..\..\..\submodules\zlib\compress.c" />
+    <ClCompile Include="..\..\..\submodules\zlib\crc32.c" />
+    <ClCompile Include="..\..\..\submodules\zlib\deflate.c" />
+    <ClCompile Include="..\..\..\submodules\zlib\gzclose.c" />
+    <ClCompile Include="..\..\..\submodules\zlib\gzlib.c" />
+    <ClCompile Include="..\..\..\submodules\zlib\gzread.c" />
+    <ClCompile Include="..\..\..\submodules\zlib\gzwrite.c" />
+    <ClCompile Include="..\..\..\submodules\zlib\infback.c" />
+    <ClCompile Include="..\..\..\submodules\zlib\inffast.c" />
+    <ClCompile Include="..\..\..\submodules\zlib\inflate.c" />
+    <ClCompile Include="..\..\..\submodules\zlib\inftrees.c" />
+    <ClCompile Include="..\..\..\submodules\zlib\trees.c" />
+    <ClCompile Include="..\..\..\submodules\zlib\uncompr.c" />
+    <ClCompile Include="..\..\..\submodules\zlib\zutil.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\submodules\zlib\crc32.h" />
+    <ClInclude Include="..\..\..\submodules\zlib\deflate.h" />
+    <ClInclude Include="..\..\..\submodules\zlib\gzguts.h" />
+    <ClInclude Include="..\..\..\submodules\zlib\inffast.h" />
+    <ClInclude Include="..\..\..\submodules\zlib\inffixed.h" />
+    <ClInclude Include="..\..\..\submodules\zlib\inflate.h" />
+    <ClInclude Include="..\..\..\submodules\zlib\inftrees.h" />
+    <ClInclude Include="..\..\..\submodules\zlib\trees.h" />
+    <ClInclude Include="..\..\..\submodules\zlib\zconf.h" />
+    <ClInclude Include="..\..\..\submodules\zlib\zlib.h" />
+    <ClInclude Include="..\..\..\submodules\zlib\zutil.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\..\submodules\zlib\contrib\vstudio\vc14\zlib.rc" />
+  </ItemGroup>
+</Project>
