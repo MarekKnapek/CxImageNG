@@ -176,52 +176,84 @@
 	</ImportGroup>
 	<PropertyGroup Label="UserMacros" />
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DLL_MD_Debug|Win32'">
+		<IntDir>$(Platform)\$(Configuration)\</IntDir>
 		<LinkIncremental>true</LinkIncremental>
+		<OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DLL_MD_Debug|x64'">
+		<IntDir>$(Platform)\$(Configuration)\</IntDir>
 		<LinkIncremental>true</LinkIncremental>
+		<OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DLL_MD_Release|Win32'">
+		<IntDir>$(Platform)\$(Configuration)\</IntDir>
 		<LinkIncremental>false</LinkIncremental>
+		<OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DLL_MD_Release|x64'">
+		<IntDir>$(Platform)\$(Configuration)\</IntDir>
 		<LinkIncremental>false</LinkIncremental>
+		<OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DLL_MT_Debug|Win32'">
+		<IntDir>$(Platform)\$(Configuration)\</IntDir>
 		<LinkIncremental>true</LinkIncremental>
+		<OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DLL_MT_Debug|x64'">
+		<IntDir>$(Platform)\$(Configuration)\</IntDir>
 		<LinkIncremental>true</LinkIncremental>
+		<OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DLL_MT_Release|Win32'">
+		<IntDir>$(Platform)\$(Configuration)\</IntDir>
 		<LinkIncremental>false</LinkIncremental>
+		<OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DLL_MT_Release|x64'">
+		<IntDir>$(Platform)\$(Configuration)\</IntDir>
 		<LinkIncremental>false</LinkIncremental>
+		<OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LIB_MD_Debug|Win32'">
+		<IntDir>$(Platform)\$(Configuration)\</IntDir>
 		<LinkIncremental>true</LinkIncremental>
+		<OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LIB_MD_Debug|x64'">
+		<IntDir>$(Platform)\$(Configuration)\</IntDir>
 		<LinkIncremental>true</LinkIncremental>
+		<OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LIB_MD_Release|Win32'">
+		<IntDir>$(Platform)\$(Configuration)\</IntDir>
 		<LinkIncremental>false</LinkIncremental>
+		<OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LIB_MD_Release|x64'">
+		<IntDir>$(Platform)\$(Configuration)\</IntDir>
 		<LinkIncremental>false</LinkIncremental>
+		<OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LIB_MT_Debug|Win32'">
+		<IntDir>$(Platform)\$(Configuration)\</IntDir>
 		<LinkIncremental>true</LinkIncremental>
+		<OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LIB_MT_Debug|x64'">
+		<IntDir>$(Platform)\$(Configuration)\</IntDir>
 		<LinkIncremental>true</LinkIncremental>
+		<OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LIB_MT_Release|Win32'">
+		<IntDir>$(Platform)\$(Configuration)\</IntDir>
 		<LinkIncremental>false</LinkIncremental>
+		<OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LIB_MT_Release|x64'">
+		<IntDir>$(Platform)\$(Configuration)\</IntDir>
 		<LinkIncremental>false</LinkIncremental>
+		<OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
 	</PropertyGroup>
 	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DLL_MD_Debug|Win32'">
 		<ClCompile>
