@@ -1,0 +1,16 @@
+.\Win32_DLL_Dynamic_Debug\zlibwapitest.exe
+.\Win32_DLL_Dynamic_Release\zlibwapitest.exe
+.\Win32_DLL_Static_Debug\zlibwapitest.exe
+.\Win32_DLL_Static_Release\zlibwapitest.exe
+.\Win32_LIB_MD_Debug\zlibwapitest.exe
+.\Win32_LIB_MD_Release\zlibwapitest.exe
+.\Win32_LIB_MT_Debug\zlibwapitest.exe
+.\Win32_LIB_MT_Release\zlibwapitest.exe
+.\x64_DLL_Dynamic_Debug\zlibwapitest.exe
+.\x64_DLL_Dynamic_Release\zlibwapitest.exe
+.\x64_DLL_Static_Debug\zlibwapitest.exe
+.\x64_DLL_Static_Release\zlibwapitest.exe
+.\x64_LIB_MD_Debug\zlibwapitest.exe
+.\x64_LIB_MD_Release\zlibwapitest.exe
+.\x64_LIB_MT_Debug\zlibwapitest.exe
+.\x64_LIB_MT_Release\zlibwapitest.exe
